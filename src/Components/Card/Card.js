@@ -6,10 +6,10 @@ export default function Card(props) {
                 <div className="col-sm-2">
                     {
                         (props.ext=='svg')?
-                        <img style={{width:50}} src={require(`C:/Users/SHASHWAT/Desktop/portfolio/src/Assets/${props.name}.svg`).default} />
+                        <img style={{width:50}} src={require(`../../Assets/${props.name}.svg`).default} />
 
                         :
-                        <img style={{width:50}} src={require(`C:/Users/SHASHWAT/Desktop/portfolio/src/Assets/${props.name}.png`).default} />
+                        <img style={{width:50}} src={require(`../../Assets/${props.name}.png`).default} />
 
                     }
                 </div>

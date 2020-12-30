@@ -14,7 +14,7 @@ export default function Overview() {
             </div>
             <div className="row">
                 <div className="col-sm-6">
-                    <p style={{color:'white' , textAlign:'left'}}>Hi, My name is Shashwat Mishra. I am a Sophomore at SRM-IST pursuing my Bachelor's Degree in Computer Science and Engineering. An 18 year old, decoding Life by building scalable Web services for high availability, resilience and security.</p>
+                    <p style={{color:'white' , textAlign:'left'}}>Hi, My name is Nikhil Chacko. I am a Sophomore at National Institute of Technology, Raipur pursuing my Bachelor's Degree in Electronics and Communication Engineering. A 21 year old, decoding Life by building scalable Web services for high availability, resilience and security.</p>
                 </div>
                 <div className="col-sm-6">
                 <img src={Gif} style={{width:'100%'}}/>
@@ -24,8 +24,8 @@ export default function Overview() {
                 <h1>Hello World!! 😃</h1>
                 <hr style={{ width:'100%' , height:1 , borderWidth:0 , backgroundColor:'#a0a3a5'}} />
                 💬 Ask me about anything an everything. <br/>
-                📫 LinkedIn profile: <a  style={{color:'#2085FF'}} href='https://www.linkedin.com/in/shashwat-mishra-699bab194/'>Shashwat Mishra</a><br/>
-                🔔 Instagram:-  <a style={{color:'#2085FF'}} href='https://www.instagram.com/_shashwatmishra_/'>_shashwatmishra_</a><br/><br/>
+                📫 LinkedIn profile: <a  style={{color:'#2085FF'}} href='https://www.linkedin.com/in/nikhil-chacko-2b811b1a6/'>Shashwat Mishra</a><br/>
+                <br/><br/>
             </div>
         </div>
     )

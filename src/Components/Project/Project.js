@@ -11,7 +11,7 @@ export default function Project(props) {
                 <div className="row">
                 <div className="col-sm-1">
                 {
-                    (props.lang=="HTML")?
+                    (props.lang==="HTML")?
                     <div style={{backgroundColor:'#E34C26' , borderRadius:20 , width:20 , height:20}}></div> 
                     :
                     <div style={{backgroundColor:'#F1E05A' , borderRadius:'50%', width:20 , height:20}}></div>
@@ -20,7 +20,7 @@ export default function Project(props) {
                 </div>
                 <div className="col-sm-10" align='left'>
                 {
-                    (props.lang=="HTML")?
+                    (props.lang==="HTML")?
                     <h6 style={{fontSize:15 , color:'#C8C9CA' , fontWeight:10}}>HTML</h6>                    :
                     <h6 style={{fontSize:15 , color:'#C8C9CA' , fontWeight:10}}>Javascript</h6>                    
 
@@ -33,7 +33,7 @@ export default function Project(props) {
             <button type="button" class="btn btn-secondary" style={{width:100}}>Visit</button>
             <br/>
             {
-                    (props.lang=="HTML")?
+                    (props.lang==="HTML")?
                     <img src={Poly} style={{marginTop:20}} />:
                     <img src={Poly2} style={{marginTop:20}} />   
                 } 

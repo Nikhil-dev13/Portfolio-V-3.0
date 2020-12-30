@@ -5,22 +5,22 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact'
 export default function Holder(props) {
     
-    if(props.show=='overview'){
+    if(props.show==='overview'){
         return(
             <Overview />
         )    
     }
-    else if(props.show=='experience'){
+    else if(props.show==='experience'){
         return(
             <Experience />
         )    
     }
-    else if(props.show=='projects'){
+    else if(props.show==='projects'){
         return(
             <Projects />
         )    
     }
-    else if(props.show=='contact'){
+    else if(props.show==='contact'){
         return(
             <Contact />
         )    
